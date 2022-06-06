@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>가위 바위 보 게임</h1>
+      <div class="content">
+        <div>
+          <dl>
+            <dt>내 코인: <span data-select="coin"></span></dt>
+            <dd>
+              <button data-select="start">Start(-10)</button>
+            </dd>
+          </dl>
+        </div>
+        <div>
+          <button data-select="play" data-btn="rock">가위</button>
+          <button data-select="play" data-btn="paper">바위</button>
+          <button data-select="play" data-btn="scissor">보</button>
+        </div>
+        <ul class="result">
+          <li>상대: <span data-select="otherPart"></span></li>
+          <li>나: <span data-select="myPart"></span></li>
+          <li>결과: <span data-select="result"></span></li>
+        </ul>
+
+        <ul class="numbers" data-select="numbers">
+          <!-- <li>10</li>
+          <li>20</li>
+          <li>30</li>
+          <li>40</li>
+          <li>50</li>
+          <li>60</li>
+          <li>70</li>
+          <li>80</li>
+          <li>10</li>
+          <li>20</li>
+          <li>30</li>
+          <li>40</li>
+          <li>50</li>
+          <li>60</li>
+          <li>70</li>
+          <li>80</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="src/game.js"></script>
+  </body>
+</html>

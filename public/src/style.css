@@ -1,0 +1,36 @@
+* {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  padding: 5px 20px;
+}
+button:disabled {
+  cursor: auto;
+}
+dl dt,
+dl dd {
+  display: inline-block;
+}
+dl dd {
+  margin-left: 60px;
+}
+.content > div,
+.content > ul {
+  margin: 50px 0;
+}
+.result li {
+  margin: 10px 0;
+}
+.numbers li {
+  display: inline-block;
+  border: 1px solid #666;
+  padding: 10px;
+}
+.numbers li.on {
+  border: 1px solid rgb(35, 12, 66);
+  background-color: #47a5ff;
+}
