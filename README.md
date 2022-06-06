@@ -1,6 +1,6 @@
 ## Site
 
-https://github.com/Kimjisungs/gameStudy-RPS.git
+https://game-rps-6893d.web.app/
 
 ## 설명
 
