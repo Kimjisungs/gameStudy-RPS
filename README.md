@@ -11,7 +11,7 @@ public/src/game.js
 
 ## API
 
-es6, javascript, css3
+data, es6, javascript, css3
 
 ## Rule
 
