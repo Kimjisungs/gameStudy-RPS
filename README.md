@@ -1,6 +1,6 @@
 ## Site
 
-Rock Paper Scissors
+https://github.com/Kimjisungs/gameStudy-RPS.git
 
 ## 설명
 
